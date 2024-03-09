@@ -1,30 +1,32 @@
-﻿
-# Multi_Signal_Visualizer
+# Multi-Port, Multi-Channel Signal Viewer
 
-## Features
+## Overview
 
-1. Multiple signals
-2. Realtime plotting
-3. Easy navigation and zooming
-4. Colour change, Legend renaming
-5. Speed control
-6. Export to pdf
+Monitoring vital signals in an ICU setting is essential for patient care. This desktop application, developed using Python and Qt, provides a multi-port, multi-channel signal viewer with the following features:
 
-## Libraries
+- **Signal File Import**: Users can browse their PC to open signal files, including samples of different medical signals such as ECG, EMG, EEG, etc., with examples of both normal and abnormal signals.
+- **Dual Graphs**: The application contains two identical graphs, each with its own controls. Users can open different signals in each graph and run them independently or link both graphs together. When linked, the graphs display the same time frames, signal speed, and viewport settings.
+- **Cine Mode**: Signals are displayed in cine mode, simulating real-time monitoring as seen in ICU monitors. Signals can be paused, played, rewound, and manipulated in real-time through various UI elements.
+- **Signal Manipulation**: Users can manipulate running signals by changing color, adding labels/titles, showing/hiding signals, customizing cine speed, zooming, panning, and moving signals between graphs. Boundary conditions are enforced to prevent unintended manipulation beyond signal limits.
+- **Exporting & Reporting**: Users can generate a report in PDF format containing snapshots of the graphs and data statistics for the displayed signals, including mean, standard deviation, duration, minimum, and maximum values.
 
-- PyQt5
-- pyqtgraph
-- pandas
-- matplotlib
-- numpy
+## Libraries Used
+
+- **PyQt5**: For building the desktop application GUI.
+- **pyqtgraph**: For real-time plotting and visualization of signals.
+- **pandas**: For data manipulation and statistics generation.
+- **matplotlib**: For additional plotting capabilities.
+- **numpy**: For numerical operations and signal processing.
 
 ## Preview
 
 ![Preview Gif](/Task_1/Design/Animation.gif)
 
-![Preview Gif](/Task_1/Design/Main.png)
-![Preview Gif](/Task_1/Design/Export.png)
-![Preview Gif](/Task_1/Design/set_color.png)
+![Main View](/Task_1/Design/Main.png)
+
+![Export Options](/Task_1/Design/Export.png)
+
+![Color Setting](/Task_1/Design/set_color.png)
 
 
 
