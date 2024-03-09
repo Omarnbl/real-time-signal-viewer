@@ -29,9 +29,10 @@ Monitoring vital signals in an ICU setting is essential for patient care. This d
 ![Color Setting](/Task_1/Design/set_color.png)
 
 
-
 ## Contributors <a name = "Contributors"></a>
 
+
+## Contributors <a name = "Contributors"></a>
 <table>
   <tr>
     <td align="center">
@@ -72,6 +73,7 @@ Monitoring vital signals in an ICU setting is essential for patient care. This d
     </td>
   </tr>
 </table>
+
 
 ## Acknowledgments
 
